@@ -1,0 +1,8 @@
+CREATE TABLE users (
+	uid int(11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	fname varchar(256) not null,
+	lname varchar(256) not null,
+	username varchar(256) not null,
+	email varchar(256) not null,
+	pwd varchar(256) not null
+);
