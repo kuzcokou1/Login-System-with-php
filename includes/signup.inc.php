@@ -30,7 +30,7 @@ if (isset($_POST['submit'])){
 				header("Location: ../signup.php?signup=invalidemail");
 				exit();
 			} else {
-				$sql = "SELECT * FROM users WHER user_name='$username";
+				$sql = "SELECT * FROM users WHERE user_name='$username";
 				$result = mysqli_query($conn, $sql);
 				$resultCheck = mysqli_num_rows($result);
 
